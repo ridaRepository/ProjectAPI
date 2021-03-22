@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test" verbose="1"> <!-- parallel  , thread  -->
+    <test name="Test Suite">
+        <packages>
+            <package name="ApıTest"></package>
+
+        </packages>
+        <classes>
+            <class name="ApıTest.OpenAPITest"></class>
+
+        </classes>
+    </test>
+</suite>

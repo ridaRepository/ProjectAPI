@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ApıTest.OpenAPITest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="ApıTest.OpenAPITest">
+        <methods>
+          <include name="checkNoficationId"/>
+          <include name="beforeclass"/>
+          <include name="GUID"/>
+        </methods>
+      </class> <!-- ApıTest.OpenAPITest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [ApıTest.OpenAPITest] -->

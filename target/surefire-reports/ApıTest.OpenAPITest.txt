@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: ApıTest.OpenAPITest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 47.678 sec <<< FAILURE!
+GUID(ApıTest.OpenAPITest)  Time elapsed: 4.896 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at ApıTest.OpenAPITest.GUID(OpenAPITest.java:176)
+
+checkNoficationId(ApıTest.OpenAPITest)  Time elapsed: 2.832 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [925ac601-278d-42ab-8996-3975a6d16d1c] but found [2d85ec77-6f1c-438c-a01e-e6f434c1c1c4],
+	expected [9d35d25b-178c-4dde-86fb-e603f34d3df2] but found [29d35d25b-178c-4dde-86fb-e603f34d3df2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at ApıTest.OpenAPITest.checkNoficationId(OpenAPITest.java:144)
+
